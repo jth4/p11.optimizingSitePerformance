@@ -15,7 +15,7 @@ gulp.task('image', function() {
 		gifsicle: true,
 		svgo: true
 	}))
-	.pipe(gulp.dest('./compimg'));
+	.pipe(gulp.dest('./img/c'));
 });
 
 gulp.task('default', ['image']);
